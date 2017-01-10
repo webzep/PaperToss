@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2624ADA31E24BAED00ECD76C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624ADA21E24BAED00ECD76C /* AppDelegate.swift */; };
+		2624ADA51E24BAED00ECD76C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2624ADA41E24BAED00ECD76C /* GameScene.sks */; };
+		2624ADA71E24BAED00ECD76C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2624ADA61E24BAED00ECD76C /* Actions.sks */; };
+		2624ADA91E24BAED00ECD76C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624ADA81E24BAED00ECD76C /* GameScene.swift */; };
+		2624ADAB1E24BAED00ECD76C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624ADAA1E24BAED00ECD76C /* GameViewController.swift */; };
+		2624ADAE1E24BAED00ECD76C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2624ADAC1E24BAED00ECD76C /* Main.storyboard */; };
+		2624ADB01E24BAED00ECD76C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2624ADAF1E24BAED00ECD76C /* Assets.xcassets */; };
+		2624ADB31E24BAED00ECD76C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2624ADB11E24BAED00ECD76C /* LaunchScreen.storyboard */; };
+		2624ADBE1E24BAED00ECD76C /* PaperTossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624ADBD1E24BAED00ECD76C /* PaperTossTests.swift */; };
+		2624ADC91E24BAED00ECD76C /* PaperTossUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624ADC81E24BAED00ECD76C /* PaperTossUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2624ADBA1E24BAED00ECD76C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2624AD971E24BAED00ECD76C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2624AD9E1E24BAED00ECD76C;
+			remoteInfo = PaperToss;
+		};
+		2624ADC51E24BAED00ECD76C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2624AD971E24BAED00ECD76C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2624AD9E1E24BAED00ECD76C;
+			remoteInfo = PaperToss;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2624AD9F1E24BAED00ECD76C /* PaperToss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperToss.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2624ADA21E24BAED00ECD76C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2624ADA41E24BAED00ECD76C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2624ADA61E24BAED00ECD76C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		2624ADA81E24BAED00ECD76C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2624ADAA1E24BAED00ECD76C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2624ADAD1E24BAED00ECD76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2624ADAF1E24BAED00ECD76C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2624ADB21E24BAED00ECD76C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2624ADB41E24BAED00ECD76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2624ADB91E24BAED00ECD76C /* PaperTossTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperTossTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2624ADBD1E24BAED00ECD76C /* PaperTossTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperTossTests.swift; sourceTree = "<group>"; };
+		2624ADBF1E24BAED00ECD76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2624ADC41E24BAED00ECD76C /* PaperTossUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperTossUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2624ADC81E24BAED00ECD76C /* PaperTossUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperTossUITests.swift; sourceTree = "<group>"; };
+		2624ADCA1E24BAED00ECD76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2624AD9C1E24BAED00ECD76C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2624ADB61E24BAED00ECD76C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2624ADC11E24BAED00ECD76C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2624AD961E24BAED00ECD76C = {
+			isa = PBXGroup;
+			children = (
+				2624ADA11E24BAED00ECD76C /* PaperToss */,
+				2624ADBC1E24BAED00ECD76C /* PaperTossTests */,
+				2624ADC71E24BAED00ECD76C /* PaperTossUITests */,
+				2624ADA01E24BAED00ECD76C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2624ADA01E24BAED00ECD76C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2624AD9F1E24BAED00ECD76C /* PaperToss.app */,
+				2624ADB91E24BAED00ECD76C /* PaperTossTests.xctest */,
+				2624ADC41E24BAED00ECD76C /* PaperTossUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2624ADA11E24BAED00ECD76C /* PaperToss */ = {
+			isa = PBXGroup;
+			children = (
+				2624ADA21E24BAED00ECD76C /* AppDelegate.swift */,
+				2624ADA41E24BAED00ECD76C /* GameScene.sks */,
+				2624ADA61E24BAED00ECD76C /* Actions.sks */,
+				2624ADA81E24BAED00ECD76C /* GameScene.swift */,
+				2624ADAA1E24BAED00ECD76C /* GameViewController.swift */,
+				2624ADAC1E24BAED00ECD76C /* Main.storyboard */,
+				2624ADAF1E24BAED00ECD76C /* Assets.xcassets */,
+				2624ADB11E24BAED00ECD76C /* LaunchScreen.storyboard */,
+				2624ADB41E24BAED00ECD76C /* Info.plist */,
+			);
+			path = PaperToss;
+			sourceTree = "<group>";
+		};
+		2624ADBC1E24BAED00ECD76C /* PaperTossTests */ = {
+			isa = PBXGroup;
+			children = (
+				2624ADBD1E24BAED00ECD76C /* PaperTossTests.swift */,
+				2624ADBF1E24BAED00ECD76C /* Info.plist */,
+			);
+			path = PaperTossTests;
+			sourceTree = "<group>";
+		};
+		2624ADC71E24BAED00ECD76C /* PaperTossUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2624ADC81E24BAED00ECD76C /* PaperTossUITests.swift */,
+				2624ADCA1E24BAED00ECD76C /* Info.plist */,
+			);
+			path = PaperTossUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2624AD9E1E24BAED00ECD76C /* PaperToss */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2624ADCD1E24BAED00ECD76C /* Build configuration list for PBXNativeTarget "PaperToss" */;
+			buildPhases = (
+				2624AD9B1E24BAED00ECD76C /* Sources */,
+				2624AD9C1E24BAED00ECD76C /* Frameworks */,
+				2624AD9D1E24BAED00ECD76C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PaperToss;
+			productName = PaperToss;
+			productReference = 2624AD9F1E24BAED00ECD76C /* PaperToss.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2624ADB81E24BAED00ECD76C /* PaperTossTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2624ADD01E24BAED00ECD76C /* Build configuration list for PBXNativeTarget "PaperTossTests" */;
+			buildPhases = (
+				2624ADB51E24BAED00ECD76C /* Sources */,
+				2624ADB61E24BAED00ECD76C /* Frameworks */,
+				2624ADB71E24BAED00ECD76C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2624ADBB1E24BAED00ECD76C /* PBXTargetDependency */,
+			);
+			name = PaperTossTests;
+			productName = PaperTossTests;
+			productReference = 2624ADB91E24BAED00ECD76C /* PaperTossTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2624ADC31E24BAED00ECD76C /* PaperTossUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2624ADD31E24BAED00ECD76C /* Build configuration list for PBXNativeTarget "PaperTossUITests" */;
+			buildPhases = (
+				2624ADC01E24BAED00ECD76C /* Sources */,
+				2624ADC11E24BAED00ECD76C /* Frameworks */,
+				2624ADC21E24BAED00ECD76C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2624ADC61E24BAED00ECD76C /* PBXTargetDependency */,
+			);
+			name = PaperTossUITests;
+			productName = PaperTossUITests;
+			productReference = 2624ADC41E24BAED00ECD76C /* PaperTossUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2624AD971E24BAED00ECD76C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Steve Richardson";
+				TargetAttributes = {
+					2624AD9E1E24BAED00ECD76C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PU3EPTP3WV;
+						ProvisioningStyle = Automatic;
+					};
+					2624ADB81E24BAED00ECD76C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PU3EPTP3WV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2624AD9E1E24BAED00ECD76C;
+					};
+					2624ADC31E24BAED00ECD76C = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = PU3EPTP3WV;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 2624AD9E1E24BAED00ECD76C;
+					};
+				};
+			};
+			buildConfigurationList = 2624AD9A1E24BAED00ECD76C /* Build configuration list for PBXProject "PaperToss" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2624AD961E24BAED00ECD76C;
+			productRefGroup = 2624ADA01E24BAED00ECD76C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2624AD9E1E24BAED00ECD76C /* PaperToss */,
+				2624ADB81E24BAED00ECD76C /* PaperTossTests */,
+				2624ADC31E24BAED00ECD76C /* PaperTossUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2624AD9D1E24BAED00ECD76C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2624ADAE1E24BAED00ECD76C /* Main.storyboard in Resources */,
+				2624ADA51E24BAED00ECD76C /* GameScene.sks in Resources */,
+				2624ADB01E24BAED00ECD76C /* Assets.xcassets in Resources */,
+				2624ADB31E24BAED00ECD76C /* LaunchScreen.storyboard in Resources */,
+				2624ADA71E24BAED00ECD76C /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2624ADB71E24BAED00ECD76C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2624ADC21E24BAED00ECD76C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2624AD9B1E24BAED00ECD76C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2624ADA91E24BAED00ECD76C /* GameScene.swift in Sources */,
+				2624ADAB1E24BAED00ECD76C /* GameViewController.swift in Sources */,
+				2624ADA31E24BAED00ECD76C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2624ADB51E24BAED00ECD76C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2624ADBE1E24BAED00ECD76C /* PaperTossTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2624ADC01E24BAED00ECD76C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2624ADC91E24BAED00ECD76C /* PaperTossUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2624ADBB1E24BAED00ECD76C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2624AD9E1E24BAED00ECD76C /* PaperToss */;
+			targetProxy = 2624ADBA1E24BAED00ECD76C /* PBXContainerItemProxy */;
+		};
+		2624ADC61E24BAED00ECD76C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2624AD9E1E24BAED00ECD76C /* PaperToss */;
+			targetProxy = 2624ADC51E24BAED00ECD76C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2624ADAC1E24BAED00ECD76C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2624ADAD1E24BAED00ECD76C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2624ADB11E24BAED00ECD76C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2624ADB21E24BAED00ECD76C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2624ADCB1E24BAED00ECD76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2624ADCC1E24BAED00ECD76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2624ADCE1E24BAED00ECD76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PU3EPTP3WV;
+				INFOPLIST_FILE = PaperToss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steverichardson.PaperToss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2624ADCF1E24BAED00ECD76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = PU3EPTP3WV;
+				INFOPLIST_FILE = PaperToss/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steverichardson.PaperToss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		2624ADD11E24BAED00ECD76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PU3EPTP3WV;
+				INFOPLIST_FILE = PaperTossTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steverichardson.PaperTossTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaperToss.app/PaperToss";
+			};
+			name = Debug;
+		};
+		2624ADD21E24BAED00ECD76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = PU3EPTP3WV;
+				INFOPLIST_FILE = PaperTossTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steverichardson.PaperTossTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PaperToss.app/PaperToss";
+			};
+			name = Release;
+		};
+		2624ADD41E24BAED00ECD76C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PU3EPTP3WV;
+				INFOPLIST_FILE = PaperTossUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steverichardson.PaperTossUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PaperToss;
+			};
+			name = Debug;
+		};
+		2624ADD51E24BAED00ECD76C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = PU3EPTP3WV;
+				INFOPLIST_FILE = PaperTossUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.steverichardson.PaperTossUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PaperToss;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2624AD9A1E24BAED00ECD76C /* Build configuration list for PBXProject "PaperToss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2624ADCB1E24BAED00ECD76C /* Debug */,
+				2624ADCC1E24BAED00ECD76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2624ADCD1E24BAED00ECD76C /* Build configuration list for PBXNativeTarget "PaperToss" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2624ADCE1E24BAED00ECD76C /* Debug */,
+				2624ADCF1E24BAED00ECD76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2624ADD01E24BAED00ECD76C /* Build configuration list for PBXNativeTarget "PaperTossTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2624ADD11E24BAED00ECD76C /* Debug */,
+				2624ADD21E24BAED00ECD76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2624ADD31E24BAED00ECD76C /* Build configuration list for PBXNativeTarget "PaperTossUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2624ADD41E24BAED00ECD76C /* Debug */,
+				2624ADD51E24BAED00ECD76C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2624AD971E24BAED00ECD76C /* Project object */;
+}
