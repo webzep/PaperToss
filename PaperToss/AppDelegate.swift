@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  PaperToss
 //
-//  Created by 0400 438 222 on 10/1/17.
+//  Created by steve on 10/1/17.
 //  Copyright © 2017 Steve Richardson. All rights reserved.
 //
 

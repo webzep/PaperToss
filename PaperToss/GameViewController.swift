@@ -2,7 +2,7 @@
 //  GameViewController.swift
 //  PaperToss
 //
-//  Created by 0400 438 222 on 10/1/17.
+//  Created by steve on 10/1/17.
 //  Copyright © 2017 Steve Richardson. All rights reserved.
 //
 
@@ -20,15 +20,13 @@ class GameViewController: UIViewController {
             if let scene = SKScene(fileNamed: "GameScene") {
                 // Set the scale mode to scale to fit the window
                 scene.scaleMode = .aspectFill
+                scene.size = self.view.bounds.size
                 
                 // Present the scene
                 view.presentScene(scene)
             }
             
-            view.ignoresSiblingOrder = true
-            
-            view.showsFPS = true
-            view.showsNodeCount = true
+
         }
     }
 
@@ -38,17 +36,11 @@ class GameViewController: UIViewController {
 
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
         if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
+            return .portrait
         } else {
-            return .all
+            return .portrait
         }
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Release any cached data, images, etc that aren't in use.
-    }
-
     override var prefersStatusBarHidden: Bool {
         return true
     }

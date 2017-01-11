@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2624ADA31E24BAED00ECD76C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624ADA21E24BAED00ECD76C /* AppDelegate.swift */; };
-		2624ADA51E24BAED00ECD76C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2624ADA41E24BAED00ECD76C /* GameScene.sks */; };
 		2624ADA71E24BAED00ECD76C /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2624ADA61E24BAED00ECD76C /* Actions.sks */; };
 		2624ADA91E24BAED00ECD76C /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624ADA81E24BAED00ECD76C /* GameScene.swift */; };
 		2624ADAB1E24BAED00ECD76C /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624ADAA1E24BAED00ECD76C /* GameViewController.swift */; };
@@ -17,6 +16,7 @@
 		2624ADB31E24BAED00ECD76C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2624ADB11E24BAED00ECD76C /* LaunchScreen.storyboard */; };
 		2624ADBE1E24BAED00ECD76C /* PaperTossTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624ADBD1E24BAED00ECD76C /* PaperTossTests.swift */; };
 		2624ADC91E24BAED00ECD76C /* PaperTossUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2624ADC81E24BAED00ECD76C /* PaperTossUITests.swift */; };
+		2624ADD71E24BB3100ECD76C /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2624ADD61E24BB3100ECD76C /* GameScene.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +39,6 @@
 /* Begin PBXFileReference section */
 		2624AD9F1E24BAED00ECD76C /* PaperToss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PaperToss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2624ADA21E24BAED00ECD76C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2624ADA41E24BAED00ECD76C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		2624ADA61E24BAED00ECD76C /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		2624ADA81E24BAED00ECD76C /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		2624ADAA1E24BAED00ECD76C /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +52,7 @@
 		2624ADC41E24BAED00ECD76C /* PaperTossUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PaperTossUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2624ADC81E24BAED00ECD76C /* PaperTossUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaperTossUITests.swift; sourceTree = "<group>"; };
 		2624ADCA1E24BAED00ECD76C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2624ADD61E24BB3100ECD76C /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,8 +104,8 @@
 			isa = PBXGroup;
 			children = (
 				2624ADA21E24BAED00ECD76C /* AppDelegate.swift */,
-				2624ADA41E24BAED00ECD76C /* GameScene.sks */,
 				2624ADA61E24BAED00ECD76C /* Actions.sks */,
+				2624ADD61E24BB3100ECD76C /* GameScene.sks */,
 				2624ADA81E24BAED00ECD76C /* GameScene.swift */,
 				2624ADAA1E24BAED00ECD76C /* GameViewController.swift */,
 				2624ADAC1E24BAED00ECD76C /* Main.storyboard */,
@@ -245,7 +245,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2624ADAE1E24BAED00ECD76C /* Main.storyboard in Resources */,
-				2624ADA51E24BAED00ECD76C /* GameScene.sks in Resources */,
+				2624ADD71E24BB3100ECD76C /* GameScene.sks in Resources */,
 				2624ADB01E24BAED00ECD76C /* Assets.xcassets in Resources */,
 				2624ADB31E24BAED00ECD76C /* LaunchScreen.storyboard in Resources */,
 				2624ADA71E24BAED00ECD76C /* Actions.sks in Resources */,
