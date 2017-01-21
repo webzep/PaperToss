@@ -56,7 +56,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     var leftWall = SKShapeNode()
     var rightWall = SKShapeNode()
     var base = SKShapeNode()
-    var endG = SKShapeNode()// The ground that the bin will sit on
+    var endG = SKShapeNode()    // The ground that the bin will sit on
     var startG = SKShapeNode()  // Where the paper ball will start
     
     // SKLabels
@@ -65,6 +65,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     // CGFloats
     var pi = CGFloat(M_PI)
     var wind = CGFloat()
+    
+    var touchingBall = false 
     
     // Did Move To View - The GameViewController.swift has now displayed GameScene.swift and will instantly run this function.
     override func didMove(to view: SKView) {
@@ -88,8 +90,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         for touch in touches {
             let location = touch.location(in: self)
             if GameState.current == .playing {
-                if ball.contains(location) {
+                if ball.contains(location){
                     t.start = location
+                    touchingBall = true
                 }
             }
         }
@@ -99,8 +102,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     override func touchesEnded(_ touches: Set<UITouch>, with event: UIEvent?) {
         for touch in touches {
             let location = touch.location(in: self)
-            if GameState.current == .playing && !ball.contains(location) {
+            if GameState.current == .playing && !ball.contains(location) && touchingBall{
                 t.end = location
+                touchingBall = false
                 fire()
             }
         }
